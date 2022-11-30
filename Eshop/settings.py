@@ -133,7 +133,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'Eshop/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'Eshop/staticfiles')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
 django_heroku.settings(locals())
 # Settings for Media
